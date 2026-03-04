@@ -163,28 +163,28 @@ organização do projeto
 
 versionamento no GitHub
 #### 📁 Estrutura Profissional Recomendada:
-finance-control/
-│
-├── app/
-│   ├── database/
-│   │   ├── connection.py
-│   │   ├── transaction_repository.py
-│   │   └── category_repository.py
-│   │
-│   ├── services/
-│   │   ├── currency_service.py
-│   │   └── transaction_service.py
-│   │
-│   ├── models/
-│   │   └── transaction.py
-│   │
-│   └── main.py
-│
-├── tests/
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── finance.db
+    finance-control/
+
+    ├── app/
+    │   ├── database/
+    │   │   ├── connection.py
+    │   │   ├── transaction_repository.py
+    │   │   └── category_repository.py
+    │   │
+    │   ├── services/
+    │   │   ├── currency_service.py
+    │   │   └── transaction_service.py
+    │   │
+    │   ├── models/
+    │   │   └── transaction.py
+    │   │
+    │   └── main.py
+    │
+    ├── tests/
+    ├── requirements.txt
+    ├── README.md
+    ├── .gitignore
+    └── finance.db
 #### 📊 Funcionalidades para Impressionar:
 
 ### Versão 1:
